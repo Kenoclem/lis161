@@ -1,24 +1,44 @@
-<!DOCTYPE html>
 <html>
-<head>
-	<title>My Sample Art Store</title>
-</head>
-<body>
-	<header>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css">
+    <title>My Sample Art Store</title>
+    <link rel="icon" href="icon.png">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/non-responsive.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script type="text/javascript" src="js/jquery-1.12.0.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  </head>
+  <body bgColor="white">
+    <div class="container">
+    <a href="clem.html"><img src="images.jpg" alt="LOGO" width="110" height="110" border="0"></a>
     <h1>My Sample Art Store</h1>
-<nav>
-    <a href="#">Home</a> |
-    <a href="#">Artists</a> |
-    <a href="#">Artworks</a> |
-    <a href="#">About Us</a> |
-    <a href="#">Search</a> |
-</nav>
-</header>
-<article>
-    <h2>Mademoiselle Caroline Riviere</h2>
-    <p> by <a href="#">Jean-Auguste-Dominique Ingres</a></p>
-    <img src="images/painting1_medium.jpg" alt="Portrait of Mademoiselle Caroline Riviere" title="Mademoiselle Caroline Riviere">
-    <p>The portrait of Mademoiselle Caroline Riviere was painted in 1806 by the French Neoclassical artist Jean Auguste Domonique Ingres and today hangs in the Louvre. It is the third of three protraits of the Riviere family the artist painted that year.</p>
+    <div id='cssmenu'>
+      <ul>
+        <li class="active"><a href='index.html'>HOME</a></li>
+        <li><a href='services.html'>ARTIST</a></li>
+        <li><a href='collections.html'>ARTWORKS</a></li>
+        <li><a href='about.html'>ABOUT US</a></li>
+        <li><a href='ebooks.html'>SEARCH</a></li>
+        <li ><a href='register.html'>REGISTER</a></li>
+        <li><a href='login.html'>LOG-IN</a></li>
+      <p><SPAN style="BACKGROUND-COLOR: #fff">
+    </div>
+    <div class="row">
+          <div class="jumbotron">
+      <div class="container">
+        <h1>Mademoiselle Caroline Riviere</h1>
+        <iframe width="280" height="405" src="painting1_large.jpg" frameborder="50" allowfullscreen></iframe>
+      </div>
+    </div>
+
+    <div class="container">
+      <!-- Example row of columns -->
+      <div class="row">
+        <p>The portrait of Mademoiselle Caroline Riviere was painted in 1806 by the French Neoclassical artist Jean Auguste Domonique Ingres and today hangs in the Louvre. It is the third of three protraits of the Riviere family the artist painted that year.</p>
 <p>
 <strong>Date:</strong><em> 1806 </em> <br>
 <strong>Medium:</strong><em> Oil of Canvass </em> <br>
@@ -38,10 +58,10 @@
 </article>
 
 <section id ="related">
-	
+  
 <h3> Related Paintings</h3>
 <p>
-<img src="images/related1_small.jpg">	
+<img src="images/related1_small.jpg"> 
 <img src="images/related2_small.jpg">
 <img src="images/related3_small.jpg">
 <img src="images/related4_small.jpg">
@@ -51,8 +71,8 @@
 <section id="reviews">
 <h4> Reviews </h4>
 <p> <strong> Love this Painting</strong>
-	<br>
-	John Smith
+  <br>
+  John Smith
 </p>
 <img src="images/star-orange.png">
 <img src="images/star-orange.png">
@@ -60,13 +80,13 @@
 <img src="images/star-orange.png">
 <img src="images/star-white.png">
 <p>
-	<p>
+  <p>
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur erat ex, tempus ullamcorper posuere at, mollis nec ante. Phasellus eget metus vitae felis sagittis iaculis. Vivamus luctus ligula urna, eu viverra mi vestibulum sed. Etiam interdum nibh quis ultrices blandit. Proin iaculis convallis ex sed aliquet. Nam lacus magna, posuere nec est eget, facilisis bibendum neque. Phasellus id mollis quam. Sed tellus nunc, condimentum sit amet nibh ac, pretium efficitur felis. Praesent eu semper dui. Aenean feugiat enim at ultrices rhoncus. Etiam sagittis, nisi eleifend porttitor vulputate, dui odio dapibus magna, a dictum ex urna quis lectus. Pellentesque eros quam, rutrum eget fringilla non, tempus ut ante.
 </p>
 
 <p> <strong> It's okay</strong>
-	<br>
-	Jane Doe
+  <br>
+  Jane Doe
 </p>
 <img src="images/star-orange.png">
 <img src="images/star-orange.png">
@@ -77,17 +97,15 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur erat ex, temp
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur erat ex, tempus ullamcorper posuere at, mollis nec ante. Phasellus eget metus vitae felis sagittis iaculis. Vivamus luctus ligula urna, eu viverra mi vestibulum sed. Etiam interdum nibh quis ultrices blandit. Proin iaculis convallis ex sed aliquet. Nam lacus magna, posuere nec est eget, facilisis bibendum neque. Phasellus id mollis quam. Sed tellus nunc, condimentum sit amet nibh ac, pretium efficitur felis. Praesent eu semper dui. Aenean feugiat enim at ultrices rhoncus. Etiam sagittis, nisi eleifend porttitor vulputate, dui odio dapibus magna, a dictum ex urna quis lectus. Pellentesque eros quam, rutrum eget fringilla non, tempus ut ante.
 </p></section>
 <footer>
-<hr><p>
-<a href="#"> Home </a> |
-<a href="#"> Art Works</a> |
-<a href="#"> Artists </a> |
-<a href="#"> About Us </a> |
-</p>
 <p>
-	<em> Copyright 2013 My Sample Art Store</em>
-</p>
+  
+      </div>
 
+      <hr>
 
-</footer>
-</body>
+      <footer>
+        <p>&copy; 2019 My Sample Art Store.</p>
+      </footer>
+    </div> <!-- /container -->
+  </body>
 </html>
